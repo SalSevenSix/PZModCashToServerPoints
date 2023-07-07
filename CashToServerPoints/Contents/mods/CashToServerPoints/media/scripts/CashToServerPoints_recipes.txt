@@ -1,0 +1,20 @@
+module Base
+{
+
+    recipe 10 Cash for Points
+    {
+        Money=10,
+        Result:SheetPaper2,
+        Time:30.0,
+        OnCreate:CashToServerPoints.GiveServerPoints10,
+    }
+
+    recipe Get Cash
+    {
+        Wallet/Wallet2/Wallet3/Wallet4,
+        Result:Money,
+        Time:30.0,
+        OnCreate:CashToServerPoints.AddExtraRandomMoney,
+    }
+
+}

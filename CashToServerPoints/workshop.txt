@@ -1,0 +1,6 @@
+version=1
+id=2874337988
+title=Cash to Server Points
+description=Convert cash money to Server Points. Requires the Server Points mod (2823055977).
+tags=Build 41
+visibility=public
