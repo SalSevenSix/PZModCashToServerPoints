@@ -2,4 +2,6 @@ name=Cash to Server Points
 poster=poster.png
 id=CashToServerPoints
 description=Convert cash money to Server Points. Requires the Server Points mod (2823055977).
+require=ServerPoints
 url=
+

@@ -1,0 +1,6 @@
+Sandbox_EN = {
+	Sandbox_CashToServerPoints_Modpage = "Cash to Server Points",
+	Sandbox_CashToServerPoints_WalletMoneyLimit = "Wallet Money Limit",
+	Sandbox_CashToServerPoints_WalletMoneyLimit_tooltip = "Maximum amount of money given from wallets.",
+}
+

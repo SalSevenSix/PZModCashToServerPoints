@@ -1,0 +1,12 @@
+VERSION = 1,
+
+option CashToServerPoints.WalletMoneyLimit
+{
+	type = double,
+	min = 1.0,
+	max = 1000.0,
+	default = 3.0,
+	page = CashToServerPoints_Modpage,
+	translation = CashToServerPoints_WalletMoneyLimit,
+}
+

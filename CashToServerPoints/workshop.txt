@@ -1,6 +1,15 @@
 version=1
 id=2874337988
 title=Cash to Server Points
-description=Convert cash money to Server Points. Requires the Server Points mod (2823055977).
+description=Convert cash money to Server Points.
+description=
+description=The maximum amount of money extracted from wallets can be changed in the Sandbox settings.
+description=[code]CashToServerPoints = {
+description=    -- Minimum=1.00 Maximum=1000.00 Default=3.00
+description=    WalletMoneyLimit = 3.0,
+description=},[/code]
+description=
+description=Requires the Server Points mod (2823055977).
 tags=Build 41
 visibility=public
+

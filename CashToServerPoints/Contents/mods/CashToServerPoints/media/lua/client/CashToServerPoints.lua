@@ -6,5 +6,6 @@ function CashToServerPoints.GiveServerPoints10()
 end
 
 function CashToServerPoints.AddExtraRandomMoney()
-  getPlayer():getInventory():AddItems("Base.Money", ZombRand(3))
+  getPlayer():getInventory():AddItems("Base.Money", ZombRand(SandboxVars.CashToServerPoints.WalletMoneyLimit or 3.0))
 end
+
