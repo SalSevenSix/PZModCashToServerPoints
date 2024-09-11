@@ -9,6 +9,14 @@ module Base
         OnCreate:CashToServerPoints.GiveServerPoints10,
     }
 
+    recipe 100 Cash for Points
+    {
+        Money=100,
+        Result:SheetPaper2,
+        Time:30.0,
+        OnCreate:CashToServerPoints.GiveServerPoints100,
+    }
+
     recipe Get Cash
     {
         Wallet/Wallet2/Wallet3/Wallet4,
